@@ -1,14 +1,29 @@
 # SQL-excercise
-Analysis of Fire and Deforestation in the Brazilian Amazon (1999–2019)
+## 🔍 Project Overview
 
-This project presents a sample analysis of the impact of El Niño and La Niña phenomena, as well as human activity, on fires and deforestation in the Brazilian Amazon between 1999 and 2019.
+The objective of this analysis is to examine the impact of **El Niño and La Niña climate phenomena** and **human activity** on **wildfires** and **deforestation** in the Brazilian Amazon between **1999 and 2019**.
 
-The analysis is based on the following dataset from Kaggle:  
-🔗 [Brazilian Amazon Rainforest Degradation](https://www.kaggle.com/datasets/mbogernetto/brazilian-amazon-rainforest-degradation)
+The project uses SQL-based queries to uncover relationships between climate events, monthly/annual fire trends, state-level deforestation, and correlations between environmental variables.
 
-Key elements of the project:
-- Exploration of correlations between ENSO events (El Niño/La Niña) and wildfire activity
-- Investigation of human-driven deforestation trends over two decades
-- Visualizations created using Tableau to present key patterns and insights
+## 🛠️ Technologies Used
 
-This project aims to offer a starting point for further exploration of environmental changes in the Amazon rainforest.
+- **DBeaver** (SQL client) – for writing and executing SQL queries  
+- **PostgreSQL** – for managing and querying the database  
+- **Tableau** – for creating interactive dashboards  
+- **Kaggle dataset**:  
+  [Brazilian Amazon Rainforest Degradation](https://www.kaggle.com/datasets/mbogernetto/brazilian-amazon-rainforest-degradation)
+
+## 📌 Key Insights
+
+- **Wildfire spikes** were observed during **2002–2005** and **2015–2019**, with summer months showing stronger fire activity.
+- **States with the highest deforestation** on average: **Mato Grosso (MT)** and **Pará (PA)**.
+- **El Niño years** show a **notably higher number of fires** and **greater deforestation averages** compared to La Niña years.
+- **Very Strong El Niño** events do not always correlate with higher fire counts than "Strong" events.
+- The **year 2004** had the **highest deforestation and fire activity**, despite not being associated with an intense climate anomaly.
+- **Correlation observed** between total fire count and total deforested area across years.
+- **MT and PA** have the largest percentage share in overall Amazon deforestation from 2004–2019.
+
+## 📁 Files
+
+- SQL scripts containing all queries and logic for analysis
+- Tableau dashboard
